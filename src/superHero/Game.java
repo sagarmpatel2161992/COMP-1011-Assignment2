@@ -28,6 +28,7 @@ public class Game {
 		
 		SuperHero flash = new SuperHero("Flash");
 		flash.show();
+		System.out.println("------------------------------------------------");
 		flash.showPowers();
 
 	}
