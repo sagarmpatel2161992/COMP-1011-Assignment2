@@ -2,7 +2,7 @@ package superHero;
 /**
  * @author SAGAR
  * Program Description: Hero Class for generating and showing abilities.
- * Version: final 29th January 2015
+ * Version: 1.0 4th February 2015
  *
  */
 public class Hero {
@@ -67,6 +67,7 @@ public class Hero {
 
 	// show method to display hero's ability and damage
 	public void show() {
+		System.out.println("------------------------------------------------");
 		System.out.println("\nAbility Of " + this.name);
 		System.out.println("------------------------------------------------");
 		System.out.println("Strength Of " + this.name + " is " + this.strength);

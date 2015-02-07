@@ -6,7 +6,7 @@ package superHero;
 /**
  * @author SAGAR
  * Program Description - Main Method for Hero Class
- * Version: 1.0 29th january 2015
+ * Version: 1.0 4th February 2015
  *  
  *
  */
@@ -25,13 +25,10 @@ public class Game {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		Hero sagar = new Hero("Saggy");
-		sagar.show();
-		sagar.fight();
-		sagar.fight();
-		sagar.fight();
 		
-
+		SuperHero flash = new SuperHero("Flash");
+		flash.show();
+		flash.showPowers();
 
 	}
 
