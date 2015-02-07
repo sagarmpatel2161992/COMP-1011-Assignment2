@@ -10,6 +10,7 @@ public class SuperHero extends Hero {
 			generateRandomPowers();
 			// TODO Auto-generated constructor stub
 		}
+		
 		private void generateRandomPowers()
 		{	
 			int random[] = new int[3];
@@ -27,11 +28,13 @@ public class SuperHero extends Hero {
 		      }
 			for(int i=0; i<3;i++)
 				superPowers[i] = powers[random[i]];
-			
 		}
 		
 		public void showPowers()
 		{
-		
+			for (int i=0; i<3;i++)
+			System.out.println("Power "+ (i+1) + ": " + superPowers[i]);
 		}
-}
+
+	}
+
